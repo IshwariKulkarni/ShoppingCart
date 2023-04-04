@@ -24,16 +24,16 @@ namespace CartDemo.Controllers
             }
 
             // GET: Cart/AddToCart/5
-            public ActionResult AddToCart(Product pro)
+            public ActionResult AddToCart(string id)
         {
             // Find the product by id, or return a 404 error if not found
-            if (db.products.Find(pro) != null)
+            if (db.products.Find(id) != null)
             {
                 // Get the current cart from session, or create a new one if it doesn't exist
                 var cart = Session["Cart"] as List<Cart> ?? new List<Cart>();
 
                 // Check if the product already exists in the cart
-                /*var cartItem = cart.FirstOrDefault(x => x.ProductId == pro.ProductId);
+                var cartItem = cart.FirstOrDefault(x => x.ProductId == id);
                 if (cartItem != null)
                 {
                     // Increase the quantity of the existing cart item
@@ -47,9 +47,9 @@ namespace CartDemo.Controllers
                         ProductId = id,
                         ProductName = db.products.Find(id).ProductName,
                         ProductPrice = db.products.Find(id).ProductPrice,
-                        ProductQuantity = "1"
+                        ProductQuantity = 1
                     });
-                }*/
+                }
 
 
 
