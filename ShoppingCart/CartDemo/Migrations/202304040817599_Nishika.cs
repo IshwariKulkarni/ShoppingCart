@@ -13,7 +13,7 @@
                     {
                         CartId = c.String(nullable: false, maxLength: 128),
                         ProductName = c.String(),
-                        ProductQuantity = c.String(),
+                        ProductQuantity = c.Int(nullable: false),
                         ProductPrice = c.String(),
                         ProductId = c.String(),
                     })

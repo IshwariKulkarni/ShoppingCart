@@ -107,9 +107,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202304040720518_Nishika.cs" />
-    <Compile Include="Migrations\202304040720518_Nishika.designer.cs">
-      <DependentUpon>202304040720518_Nishika.cs</DependentUpon>
+    <Compile Include="Migrations\202304040817599_Nishika.cs" />
+    <Compile Include="Migrations\202304040817599_Nishika.designer.cs">
+      <DependentUpon>202304040817599_Nishika.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Cart.cs" />
@@ -148,8 +148,8 @@
     <Folder Include="Views\Cart\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202304040720518_Nishika.resx">
-      <DependentUpon>202304040720518_Nishika.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202304040817599_Nishika.resx">
+      <DependentUpon>202304040817599_Nishika.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

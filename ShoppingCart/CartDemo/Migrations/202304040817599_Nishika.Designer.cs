@@ -13,7 +13,7 @@ namespace CartDemo.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202304040720518_Nishika"; }
+            get { return "202304040817599_Nishika"; }
         }
         
         string IMigrationMetadata.Source

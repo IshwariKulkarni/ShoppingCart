@@ -20,7 +20,7 @@ namespace CartDemo.Controllers
                 // Get the current cart from session, or create a new one if it doesn't exist
                 var cart = Session["Cart"] as List<Cart> ?? new List<Cart>();
 
-                return View(cart);
+            return View(cart);
             }
 
             // GET: Cart/AddToCart/5
