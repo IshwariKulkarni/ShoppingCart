@@ -11,7 +11,7 @@ namespace CartDemo.Models
         public string ProductName { get; set; }
         [Key]
         public string CartId { get; set; }  
-        public string ProductQuantity { get; set; }
+        public int ProductQuantity { get; set; }
         public string ProductPrice { get; set; }
         public string ProductId { get; set; }
     }

@@ -33,8 +33,25 @@ namespace CartDemo.Controllers
                 var cart = Session["Cart"] as List<Cart> ?? new List<Cart>();
 
                 // Check if the product already exists in the cart
-                
-                
+                /*var cartItem = cart.FirstOrDefault(x => x.ProductId == pro.ProductId);
+                if (cartItem != null)
+                {
+                    // Increase the quantity of the existing cart item
+                    cartItem.ProductQuantity++;
+                }
+                else
+                {
+                    // Add a new cart item to the cart
+                    cart.Add(new Cart
+                    {
+                        ProductId = id,
+                        ProductName = db.products.Find(id).ProductName,
+                        ProductPrice = db.products.Find(id).ProductPrice,
+                        ProductQuantity = "1"
+                    });
+                }*/
+
+
 
                 // Update the cart in session
                 Session["Cart"] = cart;

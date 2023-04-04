@@ -226,3 +226,5 @@ C:\Users\vinod\OneDrive\Desktop\cl\ShoppingCart\CartDemo\obj\Debug\CartDemo.cspr
 C:\Users\vinod\OneDrive\Desktop\cl\ShoppingCart\CartDemo\obj\Debug\CartDemo.csproj.CopyComplete
 C:\Users\vinod\OneDrive\Desktop\cl\ShoppingCart\CartDemo\obj\Debug\CartDemo.dll
 C:\Users\vinod\OneDrive\Desktop\cl\ShoppingCart\CartDemo\obj\Debug\CartDemo.pdb
+C:\Users\vinod\OneDrive\Desktop\cl\ShoppingCart\CartDemo\obj\Debug\CartDemo.Migrations.Nishika.resources
+C:\Users\vinod\OneDrive\Desktop\cl\ShoppingCart\CartDemo\obj\Debug\CartDemo.csproj.GenerateResource.cache
