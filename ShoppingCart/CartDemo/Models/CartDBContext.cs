@@ -20,7 +20,6 @@ namespace CartDemo.Models
         public DbSet<OrderDetail> orderdetails { get; set; }
 
         public DbSet<TransactionDetail> transactiondetails { get; set; }
-        
-
+        public object ProductId { get; internal set; }
     }
 }

@@ -19,7 +19,7 @@ namespace CartDemo.Models
         [Required(ErrorMessage = "Required")]
         public string ProductPrice { get; set; }
         [Required(ErrorMessage = "Required")]
-        public string ProductQuantity { get; set; }
+        public int ProductQuantity { get; set; }
        public string ProductDescription { get; set; }
 
         [ForeignKey("Category")]
