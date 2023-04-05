@@ -15,12 +15,14 @@ namespace CartDemo.Controllers
         {
             // Category c = new Category()
             //{
-              //  CategoryId = "C1",
-                //CategoryName = "Abc"
+            //  CategoryId = "C1",
+            //CategoryName = "Abc"
             //};
             //cd.categories.Add(c);
             //return "Yes";
             return View(cd.customers.ToList());
+
+            // GET: SearchFunctionality
         }
 
         public ActionResult Register()
